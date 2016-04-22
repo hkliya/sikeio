@@ -1,0 +1,19 @@
+{
+  "name": "ilovereact",
+  "version": "1.0.0",
+  "description": "Try to setup a front-end project using npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seaborn Lee",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.11.0",
+    "postcss-import": "^7.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "postcss-cli": "^2.1.0"
+  }
+}

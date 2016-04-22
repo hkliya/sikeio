@@ -1,0 +1,79 @@
+body {
+  background-color: #1F1E34;
+  color: #FFF;
+  font-family: "Avenir Next",
+      "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,
+      Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  font-weight: 400;
+  color: #FFF;
+}
+
+a:hover {
+  font-weight: 400;
+  color: #DADADA;
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  height: 100vh;
+}
+
+.section1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F1E34;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav a {
+  margin: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.section2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+  align-self: stretch;
+  background-color: rgba(255,0,0,0.3);
+}
+
+.feature-description {
+  justify-content: center;
+  flex-basis: 50%;
+  align-self: stretch;
+  background-color: rgba(0,255,0,0.3);
+  padding: 50px;
+}
